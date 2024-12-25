@@ -2,10 +2,8 @@
 
 This repository provides scripts and resources to build a complete Data Analytical Lab, including:
 - **Step 1:** Linux Environment Setup (Docker, Portainer, Apache Superset).
-- Future components: ClickHouse, Flink, and a demo application.
+- Future components: ClickHouse, Flink, and a demo application.<br>
 
-<br>
-<br>
 ### Step 1. Linux Environment Setup Script
 
 A simple script to:
