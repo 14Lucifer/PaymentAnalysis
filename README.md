@@ -18,13 +18,13 @@ A simple script to:
 ### How to Use
 1. Clone the repository.
    ``` bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/14Lucifer/PaymentAnalysis.git
+   cd PaymentAnalysis/Prepare_Env/
    ```
 
 2. Run the script with sudo.
    ``` bash
-   sudo ./setup-script.sh
+   sudo ./ubuntu22_prepare.sh
    ```
 
 3. Follow the on-screen instructions.
