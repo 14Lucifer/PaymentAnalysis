@@ -29,3 +29,13 @@ A simple script to:
    ```
 
 3. Follow the on-screen instructions.
+   ``` bash
+   This script will perform the following actions:
+   1. Install Docker and remove conflicting packages.
+   2. Set up Portainer for Docker management.
+   3. Install Apache Superset for data visualization.
+   4. Restart containers to apply changes where necessary.
+    
+   Do you want to proceed? (yes/no):
+   
+   ```
