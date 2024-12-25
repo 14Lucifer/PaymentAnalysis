@@ -1,0 +1,5 @@
+kafka:
+  broker: "alikafka-post-public-intl-sg-sca428ege05-1-vpc.alikafka.aliyuncs.com:9092,alikafka-post-public-intl-sg-sca428ege05-2-vpc.alikafka.aliyuncs.com:9092,alikafka-post-public-intl-sg-sca428ege05-3-vpc.alikafka.aliyuncs.com:9092"
+  topic: "transactions"
+
+tx_interval : 15
