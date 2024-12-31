@@ -131,12 +131,21 @@ echo_progress "Flink installation completed."
 echo_progress "Starting VSCode installation..."
 curl -fsSL https://code-server.dev/install.sh | sh
 systemctl enable --now code-server@$USER
-systemctl start --now code-server@$USER --bind-addr 0.0.0.0:9080
+echo "bind-addr: 0.0.0.0:9080
+auth: password
+password: 8Sw31oCb67
+cert: false" > /$USER/.config/code-server/config.yaml
+systemctl restart --now code-server@$USER
 echo_progress "VSCode installation completed."
 
 # Final message
 echo_progress "Environment setup completed successfully!"
-echo_progress "-----------------------------------------"
-echo_progress "Useful commands"
-echo_progress "List docker containers & its ports : docker ps --format "table {{.Names}}\t{{.Ports}}""
-echo_progress "List Ubuntu OS ports : netstat -tulnp"
+echo_progress " "
+echo_progress "Services       | Type   | Port          | Credential"
+echo_progress "-------------- | ------ | ------------- | ------------------------"
+echo_progress "Portainer      | Docker | 9443 (HTTPS)  | Setup at initial config"
+echo_progress "Superset       | Docker | 8088 (HTTP)   | admin/admin"
+echo_progress "Flink          | Docker | 9091 (HTTP)   | No credentials"
+echo_progress "VScode         | OS     | 9080 (HTTP)   | 8Sw31oCb67"
+echo_progress "Flink SQL to access locally with 'docker compose run sql-client'."
+

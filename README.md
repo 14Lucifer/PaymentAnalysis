@@ -1,20 +1,16 @@
 # Data Analytical Lab Setup
 
 This repository provides scripts and resources to build a complete Data Analytical Lab, including:
-- **Step 1:** Linux Environment Setup (Docker, Portainer, Apache Superset).
-- Future components: ClickHouse, Flink, and a demo application.
+- **Step 1:** Linux Environment Setup.
+- Future components: ClickHouse and a demo application.
 <br></br>
 
 ### Step 1. Linux Environment Setup Script
 
-A simple script to:
-- Installs Docker and dependencies.
-- Deploys Portainer and Superset as Docker containers.
-- Ensures Superset container is ready, installs required Python packages, and restarts containers for changes to take effect.
-
 ### Requirements
-- Ubuntu 22.04 LTS
-- Sudo privileges
+- Recommended Server Spec : 4vCPU 8GB ESSD 40GB (AliCloud ECS) with 10Mbps Elastic IP 
+- OS : Ubuntu 22.04 LTS
+- Priviledge : Sudo privileges
 
 ### How to Use
 1. Clone the repository.
@@ -30,12 +26,20 @@ A simple script to:
 
 3. Follow the on-screen instructions.
    ``` bash
-   This script will perform the following actions:
    1. Install Docker and remove conflicting packages.
    2. Set up Portainer for Docker management.
    3. Install Apache Superset for data visualization.
-   4. Restart containers to apply changes where necessary.
+   4. Install Flink for stream processing.
+   5. Install VSCode for code editing.
+   6. Restart containers to apply changes where necessary.
     
-   Do you want to proceed? (yes/no):
+   Do you want to proceed? (yes/no): 
    
    ```
+### Installed Packages
+| Services   | Type   | Port          | Credential                  |
+|------------|--------|---------------|-----------------------------|
+| Portainer  | Docker | 9443 (HTTPS)  | Setup at initial config     |
+| Superset   | Docker | 8088 (HTTP)   | admin/admin                 |
+| Flink      | Docker | 9091 (HTTP)   | No credentials              |
+| VScode     | OS     | 9080 (HTTP)   | 8Sw31oCb67                  |
