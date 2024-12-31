@@ -1,9 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" version="26.0.2">
   <diagram name="Page-1" id="REYOmYMD6zcS9xZGb4ue">
-    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1669" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-73" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="-143" y="33" width="543" height="467" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-74" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="75.7" width="520" height="414.3" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-75" value="&lt;b&gt;Singapore Region&lt;/b&gt;&lt;div&gt;3 Availability Zones&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="75.69999999999999" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-76" value="&lt;b&gt;Alibaba Cloud&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeColor=none;fontColor=#FFFFFF;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-143" y="33" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="190" width="230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-4" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.vpc_virtual_private_cloud;" vertex="1" parent="1">
+          <mxGeometry x="-15" y="195.16" width="40" height="25.68" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-5" value="test-vpc&lt;br&gt;&lt;div&gt;192.168.0.0/16&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="27" y="192.99999999999997" width="83" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="243" width="185" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-7" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.vswitch;" vertex="1" parent="1">
+          <mxGeometry x="4" y="245.99999999999997" width="40" height="28.57" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-8" value="test-vm-vswitch&lt;br&gt;&lt;div&gt;192.168.0.0/24&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="47" y="246" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;dashed=1;" edge="1" parent="1" source="hx2MEx2DhZW_C_vtA6Iy-1" target="hx2MEx2DhZW_C_vtA6Iy-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-1" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.ecs_elastic_compute_service;" vertex="1" parent="1">
+          <mxGeometry x="68.2" y="325" width="48.6" height="45.3" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-2" value="&lt;b&gt;Test-VM&lt;/b&gt;&lt;div&gt;4vCPU 8GB&lt;/div&gt;&lt;div&gt;System disk : ESSD 40GB&lt;/div&gt;&lt;div&gt;Ubuntu 22 LTS&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15.719999999999988" y="371" width="153.55" height="64.7" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#E6E6E6;strokeWidth=2;" edge="1" parent="1" source="hx2MEx2DhZW_C_vtA6Iy-70" target="hx2MEx2DhZW_C_vtA6Iy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-70" value="&lt;div&gt;&lt;b&gt;Installed Applications&lt;/b&gt;&lt;/div&gt;&lt;ul style=&quot;padding-left: 20px; margin-top: 0px; margin-bottom: 0px;&quot;&gt;&lt;li&gt;Portainer (9443)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Superset (8088)&lt;br&gt;&lt;/li&gt;&lt;li&gt;Flink (9091)&lt;br&gt;&lt;/li&gt;&lt;li&gt;VScode (9080)&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry y="482" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-72" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.eip_elastic_ip_address;" vertex="1" parent="1">
+          <mxGeometry x="166.3" y="90" width="50" height="49.05" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-77" value="&lt;b&gt;EIP&lt;/b&gt;&lt;div&gt;10Mbps (Billed-by-Traffic)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="119.99999999999999" y="133" width="140" height="34.7" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-79" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.user;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-45" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-80" value="&lt;b&gt;User&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280.65" y="-7" width="38.7" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-81" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="139.25" y="-50" width="101.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-82" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="hx2MEx2DhZW_C_vtA6Iy-81" target="hx2MEx2DhZW_C_vtA6Iy-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-83" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.518;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="hx2MEx2DhZW_C_vtA6Iy-81" target="hx2MEx2DhZW_C_vtA6Iy-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="-50" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
