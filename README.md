@@ -6,9 +6,10 @@ This repository provides scripts and resources to build a complete Data Analytic
 <br></br>
 
 **Lab Setup Architecture**  
-![Diagram](diagram/DataAnalysisLab_design.png)
+![Diagram](diagram/DataAnalysisLab_design.png)  
 (To be updated following push progress.)
 
+  
 ### Step 1. Linux Environment Setup Script
 
 
