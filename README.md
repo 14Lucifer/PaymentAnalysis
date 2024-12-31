@@ -5,12 +5,12 @@ This repository provides scripts and resources to build a complete Data Analytic
 - Future components: ClickHouse and a demo application.
 <br></br>
 
-### Lab Setup Architecture**  
+### Lab Setup Architecture
 ![Diagram](diagram/DataAnalysisLab_design.png)  
 (To be updated following push progress.)
 
-
-    
+<br>
+<br>
 ### Step 1. Linux Environment Setup Script
 
 
@@ -29,7 +29,7 @@ This repository provides scripts and resources to build a complete Data Analytic
 
 2. Run the script with sudo.
    ``` bash
-   sudo ./ubuntu22_prepare.sh
+   ./ubuntu22_prepare.sh
    ```
 
 3. Follow the on-screen instructions.
