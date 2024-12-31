@@ -7,10 +7,12 @@ This repository provides scripts and resources to build a complete Data Analytic
 
 ### Step 1. Linux Environment Setup Script
 
+
 ### Requirements
 - Recommended Server Spec : 4vCPU 8GB ESSD 40GB (AliCloud ECS) with 10Mbps Elastic IP 
 - OS : Ubuntu 22.04 LTS
 - Priviledge : Sudo privileges
+
 
 ### How to Use
 1. Clone the repository.
@@ -36,6 +38,8 @@ This repository provides scripts and resources to build a complete Data Analytic
    Do you want to proceed? (yes/no): 
    
    ```
+
+
 ### Installed Packages
 | Services   | Description		| Type   | Port          | Credential                  |
 |------------| ------------------------ |--------|---------------|-----------------------------|
@@ -44,11 +48,12 @@ This repository provides scripts and resources to build a complete Data Analytic
 | Flink      | Data Streaming		| Docker | 9091 (HTTP)   | No credentials              |
 | VScode     | Online Code IDE		| OS     | 9080 (HTTP)   | 8Sw31oCb67                  |
 
-For Flink SQL, please access via SQL-Client container
+
+**For Flink SQL**, please access via SQL-Client container:
 
 ```bash
 cd /PaymentAnalysis/Docker/flink/
 docker compose run --build sql-client
 ```
 
-For Flink Job submission, access console of "flink_docker-jobmanager-1" container using Portainer UI.
+**For Flink Job submission**, access console of "flink_docker-jobmanager-1" container using Portainer UI.
