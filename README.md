@@ -9,8 +9,8 @@ This repository provides scripts and resources to build a complete Data Analytic
 ![Diagram](diagram/DataAnalysisLab_design.png)  
 (To be updated following push progress.)
 
-<br>
-<br>
+<br> </br>
+<br> </br>
 ### Step 1. Linux Environment Setup Script
 
 
