@@ -1,14 +1,16 @@
 #!/bin/bash
 
-# Script to set up a Linux environment with Docker, Portainer, and Apache Superset
+# Script to set up a Linux environment with Docker, Portainer, Apache Superset, Flink, and VSCode
 # Ensure this script is run with sudo privileges
 
 # This script performs the following steps:
 # 1. Installs Docker and removes conflicting packages.
 # 2. Sets up Portainer for Docker management.
 # 3. Installs Apache Superset for data visualization.
-# 4. Ensures all containers are healthy and functional.
-# 5. Restarts containers to apply changes where necessary.
+# 4. Installs Flink for stream processing.
+# 5. Installs VSCode for code editing.
+# 6. Ensures all containers are healthy and functional.
+# 7. Restarts containers to apply changes where necessary.
 
 set -e
 
@@ -23,7 +25,9 @@ echo -e "\e[1;34mThis script will perform the following actions:\e[0m"
 echo "1. Install Docker and remove conflicting packages."
 echo "2. Set up Portainer for Docker management."
 echo "3. Install Apache Superset for data visualization."
-echo "4. Restart containers to apply changes where necessary."
+echo "4. Install Flink for stream processing."
+echo "5. Install VSCode for code editing."
+echo "6. Restart containers to apply changes where necessary."
 echo " "
 echo "Do you want to proceed? (yes/no): "
 read -r user_input
@@ -112,6 +116,27 @@ docker restart portainer
 
 echo_progress "Apache Superset installation completed."
 
+# Step 4: Clone PaymentAnalysis repository
+echo_progress "Cloning PaymentAnalysis repository..."
+git clone https://github.com/14Lucifer/PaymentAnalysis.git
+echo_progress "Repository cloned successfully."
+
+# Step 5: Install Flink
+echo_progress "Starting Flink installation..."
+cd PaymentAnalysis/Docker/flink
+docker compose up --build jobmanager taskmanager -d
+echo_progress "Flink installation completed."
+
+# Step 6: Install VSCode
+echo_progress "Starting VSCode installation..."
+curl -fsSL https://code-server.dev/install.sh | sh
+systemctl enable --now code-server@$USER
+systemctl start --now code-server@$USER --bind-addr 0.0.0.0:9080
+echo_progress "VSCode installation completed."
+
 # Final message
 echo_progress "Environment setup completed successfully!"
-
+echo_progress "-----------------------------------------"
+echo_progress "Useful commands"
+echo_progress "List docker containers & its ports : docker ps --format "table {{.Names}}\t{{.Ports}}""
+echo_progress "List Ubuntu OS ports : netstat -tulnp"
