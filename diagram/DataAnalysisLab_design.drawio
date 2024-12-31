@@ -10,10 +10,10 @@
         <mxCell id="hx2MEx2DhZW_C_vtA6Iy-74" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;opacity=90;fillColor=none;strokeColor=#7F00FF;" vertex="1" parent="1">
           <mxGeometry x="-130" y="75.7" width="520" height="414.3" as="geometry" />
         </mxCell>
-        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A1A1A;fontColor=#1A1A1A;" vertex="1" parent="1">
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#4D4D4D;fontColor=#1A1A1A;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="-20" y="190" width="230" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#4D4D4D;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="hx2MEx2DhZW_C_vtA6Iy-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#333333;fontColor=#4D4D4D;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry y="243" width="185" height="210" as="geometry" />
         </mxCell>
         <mxCell id="hx2MEx2DhZW_C_vtA6Iy-75" value="&lt;b&gt;Singapore Region&lt;/b&gt;&lt;div&gt;3 Availability Zones&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7F00FF;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
