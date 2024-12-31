@@ -51,6 +51,4 @@ If you have executed "ubuntu22_prepare.sh", no need to execute below cmd again. 
 - Ensure compatibility between Flink, Kafka connector, Python, and PyFlink packages.
 - Adjust resource allocations (e.g., memory and CPU) in `docker-compose.yml` as needed for your environment.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
