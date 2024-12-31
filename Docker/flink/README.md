@@ -35,6 +35,9 @@ apache-flink-libraries 1.20.0
 ```
 
 ## Usage
+Executing and creating these containers are covered in environment preparation script in "Prepare_Env" folder. 
+If you have executed "ubuntu22_prepare.sh", no need to execute below cmd again. Below cmd(s) are only for separate flink setup. 
+
 1. Build and start the cluster:
    ```bash
    docker compose up --build jobmanager taskmanager -d
