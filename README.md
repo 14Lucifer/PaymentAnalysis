@@ -37,9 +37,18 @@ This repository provides scripts and resources to build a complete Data Analytic
    
    ```
 ### Installed Packages
-| Services   | Type   | Port          | Credential                  |
-|------------|--------|---------------|-----------------------------|
-| Portainer  | Docker | 9443 (HTTPS)  | Setup at initial config     |
-| Superset   | Docker | 8088 (HTTP)   | admin/admin                 |
-| Flink      | Docker | 9091 (HTTP)   | No credentials              |
-| VScode     | OS     | 9080 (HTTP)   | 8Sw31oCb67                  |
+| Services   | Description		| Type   | Port          | Credential                  |
+|------------| ------------------------ |--------|---------------|-----------------------------|
+| Portainer  | Docker Mgmt UI		| Docker | 9443 (HTTPS)  | Setup at initial config     |
+| Superset   | Data visualization (BI)	| Docker | 8088 (HTTP)   | admin/admin                 |
+| Flink      | Data Streaming		| Docker | 9091 (HTTP)   | No credentials              |
+| VScode     | Online Code IDE		| OS     | 9080 (HTTP)   | 8Sw31oCb67                  |
+
+For Flink SQL, please access via SQL-Client container
+
+```bash
+cd /PaymentAnalysis/Docker/flink/
+docker compose run --build sql-client
+```
+
+For Flink Job submission, access console of "flink_docker-jobmanager-1" container using Portainer UI.
