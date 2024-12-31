@@ -131,6 +131,7 @@ echo_progress "Flink installation completed."
 echo_progress "Starting VSCode installation..."
 curl -fsSL https://code-server.dev/install.sh | sh
 systemctl enable --now code-server@$USER
+systemctl start --now code-server@$USER
 echo "bind-addr: 0.0.0.0:9080
 auth: password
 password: 8Sw31oCb67
